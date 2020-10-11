@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Language courses</title>
+    <meta charset="utf-8">
+</head>
+<body>
+<form method="POST" action="/cgi-bin/form.py">
+    <p>First name: <input type="text" placeholder="First name" name="first_name"></p>
+    <p>Second name: <input type="text" placeholder="Second name" name="second_name"></p>
+    <p>Native language:</p>
+    <p>
+        <input type="radio" name="native_language" value="Ukrainian" id="ukrainian">
+        <label for="ukrainian">Ukrainian</label>
+        <input type="radio" name="native_language" value="Russian" id="russian">
+        <label for="russian">Russian</label>
+        <input type="radio" name="native_language" value="Belorussian" id="belorussian">
+        <label for="belorussian">Belorussian</label>
+    </p>
+    <p>Languages to learn:</p>
+    <p>
+        <input type="checkbox" name="languages" value="English" id="english">
+        <label for="english">English</label>
+        <input type="checkbox" name="languages" value="French" id="french">
+        <label for="french">French</label>
+        <input type="checkbox" name="languages" value="Portuguese" id="portuguese">
+        <label for="portuguese">Portuguese</label>
+        <input type="checkbox" name="languages" value="Spanish" id="spanish">
+        <label for="spanish">Spanish</label>
+        <input type="checkbox" name="languages" value="German" id="german">
+        <label for="german">German</label>
+    </p>
+    <input type="submit" value="Submit">
+</form>
+</body>
+</html>
